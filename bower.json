@@ -1,0 +1,21 @@
+{
+  "name": "real-estate-mock",
+  "description": "Template for Real estate project",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.6"
+  },
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap-material-design": "^0.5.10"
+  }
+}

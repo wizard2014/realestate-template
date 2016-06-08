@@ -1,2 +1,2 @@
-# realestate-template
+# Realestate Template
 HTML template for Real Estate project
