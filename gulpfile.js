@@ -23,6 +23,8 @@ gulp.task('styles', function() {
 	return gulp.src([
         paths.bower  + '/bootstrap/dist/css/bootstrap.css',
         paths.bower  + '/bootstrap-material-design/dist/css/{bootstrap-material-design,ripples}.css',
+        paths.bower  + '/okaynav/app/css/okayNav-base.css',
+        paths.bower  + '/okaynav/app/css/okayNav-theme.css',
         paths.assets + '/styles/**/*.scss'
 	])
         .pipe(gulpIf(isDevelopment, sourcemaps.init()))
@@ -44,6 +46,7 @@ gulp.task('scripts', function() {
         paths.bower  + '/jquery/dist/jquery.js',
         paths.bower  + '/bootstrap/dist/js/bootstrap.js',
         paths.bower  + '/bootstrap-material-design/scripts/{material,ripples}.js',
+        paths.bower  + '/okaynav/dist/js/jquery.okayNav-min.js',
         paths.assets + '/scripts/init/*.js'
     ])
         .pipe(gulpIf(isDevelopment, sourcemaps.init()))
