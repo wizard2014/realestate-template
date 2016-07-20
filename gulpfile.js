@@ -47,7 +47,7 @@ gulp.task('scripts', function() {
         paths.bower  + '/bootstrap/dist/js/bootstrap.js',
         paths.bower  + '/bootstrap-material-design/scripts/{material,ripples}.js',
         paths.bower  + '/okaynav/dist/js/jquery.okayNav-min.js',
-        paths.assets + '/scripts/init/*.js'
+        paths.assets + '/scripts/**/*.js'
     ])
         .pipe(gulpIf(isDevelopment, sourcemaps.init()))
         .pipe(concat('app.js'))
